@@ -49,14 +49,25 @@ gToNumber = 2
 puts g.to_i + gToNumber
 
 
-challenge 5/
+challenge 5
 
 puts "What is your name?"
 name = gets.chomp
 
 puts "What do you like to do?"
-likeToDo = gets.chomp
 
 puts "Your name is #{name} and you like to #{likeToDo}"
+
+
+challenge 6/
+
+myFirstArray = []
+myFirstArray = ["a", "b", "c", "d", "e", 1, 2, 3, 4]
+puts myFirstArray[myFirstArray.length-1]
+puts myFirstArray[0]
+myFirstArray[1] = "Joe"
+myFirstArray[2] = 3
+myFirstArray << "true"
+puts myFirstArray[3].class 
 
 
