@@ -20,6 +20,7 @@ puts "n + #{"nil was here"}"
 
 print n
 
-puts class.method.n
+puts n.class
+
 
 
