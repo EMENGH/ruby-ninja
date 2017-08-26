@@ -23,7 +23,7 @@ print n
 puts n.class
 
 
-challenge 3/
+challenge 3
 
 d = 1
 puts d
@@ -34,5 +34,17 @@ puts e
 d == e
 puts d
 
+challenge 4/
 
+christine = "Hi, I'm Christine"
+
+likesTo = "long walks on the beach, kinda."
+
+puts "#{christine} and I like #{likesTo}"
+
+g = "2"
+
+gToNumber = 2
+
+puts g.to_i + gToNumber
 
