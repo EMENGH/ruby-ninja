@@ -59,7 +59,7 @@ puts "What do you like to do?"
 puts "Your name is #{name} and you like to #{likeToDo}"
 
 
-challenge 6/
+challenge 6
 
 myFirstArray = []
 myFirstArray = ["a", "b", "c", "d", "e", 1, 2, 3, 4]
@@ -70,4 +70,20 @@ myFirstArray[2] = 3
 myFirstArray << "true"
 puts myFirstArray[3].class 
 
+challenge 7/
+
+myFavoriteAnimals = {
+
+        Edgar: "Donkey",   
+        Ozzie: "Dog",
+        Marco: "Fish",
+        Jake: "Snake",
+        Mario: "Horse",
+    }
+myFavoriteAnimals[:Edgar] = "Bear"
+
+favoriteMovie = {
+}
+ 
+favoriteMovie[:Movie] = "Star Wars"
 
