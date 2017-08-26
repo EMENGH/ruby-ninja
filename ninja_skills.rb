@@ -70,7 +70,7 @@ myFirstArray[2] = 3
 myFirstArray << "true"
 puts myFirstArray[3].class 
 
-challenge 7/
+challenge 7
 
 myFavoriteAnimals = {
 
@@ -87,3 +87,11 @@ favoriteMovie = {
  
 favoriteMovie[:Movie] = "Star Wars"
 
+challenge 8/
+
+firstRange = (1..10)
+firstRange = (1.10).to_a
+secondRange = (1..999)
+secondRange = (1..999).to_a
+firstRange.each do d
+    puts firstRange[d]
